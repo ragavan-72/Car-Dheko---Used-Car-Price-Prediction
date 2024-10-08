@@ -1,19 +1,21 @@
 # Car-Dheko---Used-Car-Price-Prediction
 
-This project based on regression problem soliving, by this project we can learned and practice in many regression models like Linear Regression, Decision Trees, Random Forests, 
-Gradient Boosting Machines and more
-we used more pithone and used cuple of CSS code to deploy the Streamlit app. we trained and evloved the models by Train-Test Split: Common split ratios are 70-30 or 80-20. 
-Hyperparameter Tuning: Use techniques like Grid Search or Random Search, Performance Metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), R-squared.
-with this kind of skill we have deplyed intractive streamlit app and accurate price prediction.
+**Project Overview:**
+This project focuses on solving a regression problem to predict used car prices. It employs various regression models including Linear Regression, Decision Trees, Random Forests, Gradient Boosting Machines, and more. Alongside Python, CSS was utilized to create and deploy an interactive Streamlit app. Through rigorous model training and evaluation, involving techniques like Train-Test Split (typically 70-30 or 80-20 ratios), Hyperparameter Tuning (using Grid Search or Random Search), and performance metrics (Mean Absolute Error, Mean Squared Error, and R-squared), an accurate price prediction model was developed.
 
-Results: 
-A functional and accurate machine learning model for predicting used car prices.
-Comprehensive analysis and visualizations of the dataset.
-Detailed documentation explaining the methodology, models, and results.
-An interactive Streamlit application for real-time price predictions based on user input.
+**Exploratory Data Analysis (EDA):**
+Data Cleaning: Identified and handled missing values, ensuring the dataset was complete and consistent.
+Feature Engineering: Created new features like Age_of_the_Car to enhance model performance.
+Univariate Analysis: Examined the distribution of individual variables to understand their spread and central tendency.
+Bivariate Analysis: Explored relationships between features using scatter plots, correlation matrices, and heatmaps.
+Outlier Detection: Identified and treated outliers to prevent them from skewing the model's performance.
+Data Visualization: Utilized libraries like Matplotlib and Seaborn to create insightful visualizations, helping to uncover hidden patterns in the data.
 
-Project Scope:
-We have historical data on used car prices from CarDekho, including various features such as make, model, year, fuel type, transmission type, 
-and other relevant attributes from different cities. Your task as a data scientist is to develop a machine learning model that can accurately 
-predict the prices of used cars based on these features. 
-The model should be integrated into a Streamlit-based web application to allow users to input car details and receive an estimated price instantly.
+**Results:**
+Developed a functional and accurate machine learning model for predicting used car prices.
+Provided comprehensive analysis and visualizations of the dataset.
+Created detailed documentation explaining the methodology, models, and results.
+Deployed an interactive Streamlit application for real-time price predictions based on user input.
+
+**Project Scope:**
+The project utilized historical data on used car prices from CarDekho, encompassing features like make, model, year, fuel type, transmission type, and more from various cities. The aim was to build a machine learning model to accurately predict car prices based on these features. This model was integrated into a Streamlit-based web app, allowing users to input car details and instantly receive an estimated price.
